@@ -44,7 +44,7 @@ class FluentPDO
      * @param \PDO                  $pdo
      * @param \FluentStructure|null $structure
      */
-    function __construct(PDO $pdo, FluentStructure $structure = null) {
+    function __construct(PDO $pdo = null, FluentStructure $structure = null) {
         $this->pdo = $pdo;
         if (!$structure) {
             $structure = new FluentStructure();
