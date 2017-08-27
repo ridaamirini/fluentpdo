@@ -10,6 +10,7 @@
 			"homepage": "http://licht.sk/"
 		}
 	],
+	"minimum-stability": "dev",
 	"autoload": {
 		"files": ["FluentPDO/FluentPDO.php"]
 	}
